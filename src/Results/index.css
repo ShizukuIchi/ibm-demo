@@ -1,0 +1,12 @@
+.result {
+  background: rgb(248,248,248);
+  animation: spread-in 1s forwards;
+  padding: 2em 3em;
+  box-sizing: border-box;
+  overflow-x: visible;
+  overflow-y: auto;
+}
+@keyframes spread-in {
+  from { height: 0; }
+  to { height: calc(100vh - 155px); }
+}
